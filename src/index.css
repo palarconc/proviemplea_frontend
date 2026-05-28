@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+}
+
+.hero-section {
+  min-height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(rgba(0, 51, 102, 0.88), rgba(0, 51, 102, 0.88)),
+    url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.service-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.stat-box {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 30px;
+  min-height: 150px;
+}
+
+.stat-box h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+}
+
+.progress {
+  height: 24px;
+  border-radius: 20px;
+}
