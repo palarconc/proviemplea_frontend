@@ -83,6 +83,7 @@ docker compose up -d
 
 ## Estructura del proyecto
 
+```text
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -98,6 +99,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ## Buenas prácticas aplicadas
 * Separación del proyecto por componentes.
